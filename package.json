@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_alt",
+  "version": "1.0.0",
+  "description": "My professional portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cdplourde/portfolio_alt.git"
+  },
+  "author": "Chad Plourde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cdplourde/portfolio_alt/issues"
+  },
+  "homepage": "https://github.com/Cdplourde/portfolio_alt#readme",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
