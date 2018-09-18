@@ -1,5 +1,5 @@
-@import 'config';
-@import 'menu';
+@import "config";
+@import "menu";
 
 * {
   box-sizing: border-box;
@@ -31,6 +31,7 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 2), 0.5);
+    width: 100%;
   }
 }
 
@@ -66,6 +67,23 @@ main {
     }
   }
 
+  .tech-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      &:not(:last-of-type) {
+        margin: 0 10px 0 10px;
+      }
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
+    }
+  }
+
   &#home {
     overflow: hidden;
     h1 {
@@ -77,9 +95,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 
-  'bioimage bio bio'
-  'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -88,24 +104,24 @@ main {
     border-radius: 50%;
     border: $secondary-color 3px solid;
   }
-  
+
   .bio {
     grid-area: bio;
     font-size: 1.5rem;
   }
-  
+
   .job-1 {
     grid-area: job1;
   }
-  
+
   .job-2 {
     grid-area: job2;
   }
-  
+
   .job-3 {
     grid-area: job3;
   }
-  
+
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
@@ -189,4 +205,4 @@ main {
   height: 60px;
 }
 
-@import 'mobile';
+@import "mobile";
