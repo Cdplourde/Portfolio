@@ -248,6 +248,13 @@ main {
   color: #fff;
   height: 60px; }
 
+.warning-message {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
@@ -283,7 +290,8 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio";
+    grid-template-areas: "bioimage"
+ "bio";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
