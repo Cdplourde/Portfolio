@@ -1,4 +1,4 @@
 # portfolio
 My professional portfolio.
 
-[Link](www.chadplourde.com)
+[Link](http://chadplourde.com)
