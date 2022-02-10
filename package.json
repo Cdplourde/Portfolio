@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Cdplourde/portfolio_alt",
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.3"
+    "node-sass": "^7.0.0"
   }
 }
